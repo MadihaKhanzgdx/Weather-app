@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/ae/8f/4f/ae8f4f3920209b44e4513e5d934db70d.jpg");
+     background-repeat: no-repeat;        
+  background-position: center;            
+  background-size: cover;   
+}
+
+.weather-container {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+}
